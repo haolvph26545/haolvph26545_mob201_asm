@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:layout_margin="15dp"
+    android:padding="10dp">
+    <ImageView
+        android:id="@+id/thumb"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:layout_gravity="center"
+        android:src="@drawable/logo1"/>
+
+    <Button
+        android:id="@+id/btn_avt"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Thay Avatar"
+        android:layout_gravity="center"
+        android:textSize="20sp"
+        android:textColor="@color/black"
+        android:backgroundTint="#ccc"
+        android:layout_marginTop="20dp"
+        android:textAllCaps="false"/>
+
+    <Button
+        android:id="@+id/btn_login"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Đăng Nhập"
+        android:layout_gravity="center"
+        android:textSize="20sp"
+        android:textColor="@color/black"
+        android:backgroundTint="#ccc"
+        android:layout_marginTop="20dp"
+        android:textAllCaps="false"/>
+
+<!--    <Button-->
+<!--        android:id="@+id/btn_music"-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:text="Bài Nhạc Yêu Thích"-->
+<!--        android:layout_gravity="center"-->
+<!--        android:textSize="20sp"-->
+<!--        android:textColor="@color/black"-->
+<!--        android:backgroundTint="#ccc"-->
+<!--        android:layout_marginTop="20dp"-->
+<!--        android:textAllCaps="false"/>-->
+    <Button
+        android:id="@+id/btn_signin"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Đăng Ký"
+        android:layout_gravity="center"
+        android:textSize="20sp"
+        android:textColor="@color/black"
+        android:backgroundTint="#ccc"
+        android:layout_marginTop="20dp"
+        android:textAllCaps="false"/>
+
+</LinearLayout>
